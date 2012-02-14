@@ -42,6 +42,8 @@
 		self.isTouchEnabled = YES;
 		self.isAccelerometerEnabled = YES;
 		
+        [self initBox2DWorld];
+        [self initBox2DDebugger];
 		
 		[self schedule: @selector(update:)];
 	}
@@ -49,7 +51,7 @@
 	return self;
 }
 
-- (void)initBox2DDebugger {
+- (void)initBox2DWorld {
     b2Vec2 gravity;
     gravity.Set(0.0f, -10.0f);
     bool doSleep = true;
@@ -57,7 +59,7 @@
     world->SetContinuousPhysics(true);
 }
 
-- (void)initBox2DWorld {
+- (void)initBox2DDebugger {
     m_debugDraw = new GLESDebugDraw( PTM_RATIO );
     world->SetDebugDraw(m_debugDraw);
     

@@ -154,11 +154,11 @@
 		334F5FF814E3503E00B80F6D /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 334F5FF714E3503E00B80F6D /* b2RevoluteJoint.cpp */; };
 		334F5FFB14E3503E00B80F6D /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 334F5FFA14E3503E00B80F6D /* b2WeldJoint.cpp */; };
 		334F600114E3503E00B80F6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 334F600014E3503E00B80F6D /* main.m */; };
-		334F600414E3503E00B80F6D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 334F600314E3503E00B80F6D /* AppDelegate.mm */; };
-		334F600714E3503E00B80F6D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334F600614E3503E00B80F6D /* RootViewController.m */; };
-		334F600A14E3503E00B80F6D /* WoodsLevel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 334F600914E3503E00B80F6D /* WoodsLevel.mm */; };
-		334F600D14E3503E00B80F6D /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 334F600C14E3503E00B80F6D /* GLES-Render.mm */; };
 		334F601014E3503E00B80F6D /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F600F14E3503E00B80F6D /* blocks.png */; };
+		33A7C15814E9DF7100F70841 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33A7C15514E9DF7100F70841 /* AppDelegate.mm */; };
+		33A7C15914E9DF7100F70841 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A7C15714E9DF7100F70841 /* RootViewController.m */; };
+		33A7C15C14E9DF7800F70841 /* WoodsLevel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33A7C15B14E9DF7800F70841 /* WoodsLevel.mm */; };
+		33A7C16014E9DF8C00F70841 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33A7C15F14E9DF8C00F70841 /* GLES-Render.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -463,16 +463,16 @@
 		334F5FFD14E3503E00B80F6D /* LICENSE_Box2D.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE_Box2D.txt; path = libs/LICENSE_Box2D.txt; sourceTree = "<group>"; };
 		334F5FFF14E3503E00B80F6D /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		334F600014E3503E00B80F6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		334F600214E3503E00B80F6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		334F600314E3503E00B80F6D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
-		334F600514E3503E00B80F6D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		334F600614E3503E00B80F6D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		334F600814E3503E00B80F6D /* WoodsLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WoodsLevel.h; sourceTree = "<group>"; };
-		334F600914E3503E00B80F6D /* WoodsLevel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WoodsLevel.mm; sourceTree = "<group>"; };
-		334F600B14E3503E00B80F6D /* GLES-Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
-		334F600C14E3503E00B80F6D /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
-		334F600E14E3503E00B80F6D /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		334F600F14E3503E00B80F6D /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		33A7C15414E9DF7100F70841 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = classes/AppDelegate.h; sourceTree = "<group>"; };
+		33A7C15514E9DF7100F70841 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = classes/AppDelegate.mm; sourceTree = "<group>"; };
+		33A7C15614E9DF7100F70841 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = classes/RootViewController.h; sourceTree = "<group>"; };
+		33A7C15714E9DF7100F70841 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = classes/RootViewController.m; sourceTree = "<group>"; };
+		33A7C15A14E9DF7800F70841 /* WoodsLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WoodsLevel.h; path = classes/WoodsLevel.h; sourceTree = "<group>"; };
+		33A7C15B14E9DF7800F70841 /* WoodsLevel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = WoodsLevel.mm; path = classes/WoodsLevel.mm; sourceTree = "<group>"; };
+		33A7C15D14E9DF8C00F70841 /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameConfig.h; path = classes/GameConfig.h; sourceTree = "<group>"; };
+		33A7C15E14E9DF8C00F70841 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GLES-Render.h"; path = "classes/GLES-Render.h"; sourceTree = "<group>"; };
+		33A7C15F14E9DF8C00F70841 /* GLES-Render.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "GLES-Render.mm"; path = "classes/GLES-Render.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -533,8 +533,8 @@
 			isa = PBXGroup;
 			children = (
 				334F601614E3558D00B80F6D /* AppDelegate */,
-				334F600814E3503E00B80F6D /* WoodsLevel.h */,
-				334F600914E3503E00B80F6D /* WoodsLevel.mm */,
+				33A7C15A14E9DF7800F70841 /* WoodsLevel.h */,
+				33A7C15B14E9DF7800F70841 /* WoodsLevel.mm */,
 			);
 			name = "Archery-Blog";
 			path = "archery-blog";
@@ -994,9 +994,9 @@
 		334F5FFE14E3503E00B80F6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				334F600B14E3503E00B80F6D /* GLES-Render.h */,
-				334F600C14E3503E00B80F6D /* GLES-Render.mm */,
-				334F600E14E3503E00B80F6D /* GameConfig.h */,
+				33A7C15D14E9DF8C00F70841 /* GameConfig.h */,
+				33A7C15E14E9DF8C00F70841 /* GLES-Render.h */,
+				33A7C15F14E9DF8C00F70841 /* GLES-Render.mm */,
 				334F5FFF14E3503E00B80F6D /* Prefix.pch */,
 				334F600014E3503E00B80F6D /* main.m */,
 			);
@@ -1007,10 +1007,10 @@
 		334F601614E3558D00B80F6D /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				334F600214E3503E00B80F6D /* AppDelegate.h */,
-				334F600314E3503E00B80F6D /* AppDelegate.mm */,
-				334F600514E3503E00B80F6D /* RootViewController.h */,
-				334F600614E3503E00B80F6D /* RootViewController.m */,
+				33A7C15414E9DF7100F70841 /* AppDelegate.h */,
+				33A7C15514E9DF7100F70841 /* AppDelegate.mm */,
+				33A7C15614E9DF7100F70841 /* RootViewController.h */,
+				33A7C15714E9DF7100F70841 /* RootViewController.m */,
 			);
 			name = AppDelegate;
 			sourceTree = "<group>";
@@ -1215,10 +1215,10 @@
 				334F5FF814E3503E00B80F6D /* b2RevoluteJoint.cpp in Sources */,
 				334F5FFB14E3503E00B80F6D /* b2WeldJoint.cpp in Sources */,
 				334F600114E3503E00B80F6D /* main.m in Sources */,
-				334F600414E3503E00B80F6D /* AppDelegate.mm in Sources */,
-				334F600714E3503E00B80F6D /* RootViewController.m in Sources */,
-				334F600A14E3503E00B80F6D /* WoodsLevel.mm in Sources */,
-				334F600D14E3503E00B80F6D /* GLES-Render.mm in Sources */,
+				33A7C15814E9DF7100F70841 /* AppDelegate.mm in Sources */,
+				33A7C15914E9DF7100F70841 /* RootViewController.m in Sources */,
+				33A7C15C14E9DF7800F70841 /* WoodsLevel.mm in Sources */,
+				33A7C16014E9DF8C00F70841 /* GLES-Render.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1314,6 +1314,7 @@
 				334F601514E3503E00B80F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
