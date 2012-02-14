@@ -473,6 +473,7 @@
 		33A7C15D14E9DF8C00F70841 /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameConfig.h; path = classes/GameConfig.h; sourceTree = "<group>"; };
 		33A7C15E14E9DF8C00F70841 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GLES-Render.h"; path = "classes/GLES-Render.h"; sourceTree = "<group>"; };
 		33A7C15F14E9DF8C00F70841 /* GLES-Render.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "GLES-Render.mm"; path = "classes/GLES-Render.mm"; sourceTree = "<group>"; };
+		33A7C16114E9EC9B00F70841 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -994,6 +995,7 @@
 		334F5FFE14E3503E00B80F6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33A7C16114E9EC9B00F70841 /* Constants.h */,
 				33A7C15D14E9DF8C00F70841 /* GameConfig.h */,
 				33A7C15E14E9DF8C00F70841 /* GLES-Render.h */,
 				33A7C15F14E9DF8C00F70841 /* GLES-Render.mm */,

@@ -9,8 +9,6 @@
 
 #import "WoodsLevel.h"
 
-#define PTM_RATIO 32
-
 @interface WoodsLevel ()
 
 - (void)initBox2DDebugger;
@@ -38,9 +36,7 @@
 -(id) init {
     self = [super init];
 	if(self) {
-		
 		self.isTouchEnabled = YES;
-		self.isAccelerometerEnabled = YES;
 		
         [self initBox2DWorld];
         [self initBox2DDebugger];
